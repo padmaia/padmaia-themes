@@ -1,0 +1,21 @@
+{
+  "name": "padmaia-vscode-theme",
+  "displayName": "Padmaia Theme",
+  "description": "Padmaia's VS Code Themes",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Padmaia Sith",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darth-rose-color-theme.json"
+      }
+    ]
+  }
+}
